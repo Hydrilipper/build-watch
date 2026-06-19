@@ -1,0 +1,33 @@
+name: Scrape PC deals
+
+on:
+  schedule:
+    # Runs at 13:00 UTC daily = 6am Pacific / 9am Eastern. Cron times are always UTC.
+    # Adjust the hour if you want it to run at a different local time.
+    - cron: '0 13 * * *'
+  workflow_dispatch: {} # adds a "Run workflow" button on the Actions tab for manual checks
+
+permissions:
+  contents: write # needed so the workflow can commit the updated listings.json back to the repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
+
+      - run: npm run scrape
+
+      - name: Commit updated listings
+        run: |
+          git config user.name "build-watch-bot"
+          git config user.email "actions@github.com"
+          git add docs/listings.json
+          git diff --staged --quiet || git commit -m "Update PC listings snapshot"
+          git push

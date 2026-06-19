@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build Watch — Prebuilt PC deal tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14171c; --surface:#1b1f26; --surface-2:#20262e; --border:#2b323c;
+    --text:#e9e7e0; --text-muted:#8c9099;
+    --gold:#d4a843; --gold-dim:#a3853a;
+    --green:#5fb88f; --green-dim:#3a5f4d; --red:#d9695c;
+    --display:'Oswald',sans-serif; --body:'Inter',sans-serif; --mono:'JetBrains Mono',monospace;
+  }
+  *{box-sizing:border-box;}
+  body{ margin:0; background:var(--bg); color:var(--text); font-family:var(--body); }
+  .wrap{ max-width:1100px; margin:0 auto; padding:32px 20px 60px; }
+
+  .header{ display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:16px;
+    border-bottom:1px solid var(--border); padding-bottom:18px; margin-bottom:8px; }
+  .title{ font-family:var(--display); font-weight:700; font-size:32px; letter-spacing:.5px; text-transform:uppercase; margin:0; }
+  .title span{ color:var(--gold); }
+  .sub{ font-size:13px; color:var(--text-muted); margin:4px 0 0; }
+  .checked{ font-size:12px; color:var(--text-muted); font-family:var(--mono); margin-bottom:24px; }
+  .checked b{ color:var(--green); }
+
+  .budget{ display:flex; align-items:center; gap:10px; background:var(--surface); border:1px solid var(--border);
+    border-radius:10px; padding:10px 14px; }
+  .budget label{ font-size:11px; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted); }
+  .budget-input{ display:flex; align-items:center; font-family:var(--mono); font-size:20px; font-weight:700; color:var(--gold); }
+  .budget-input input{ width:90px; background:transparent; border:none; color:var(--gold); font-family:var(--mono);
+    font-size:20px; font-weight:700; outline:none; }
+
+  .toolbar{ display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:18px; }
+  .filter{ display:flex; align-items:center; gap:6px; font-size:13px; color:var(--text-muted); cursor:pointer; user-select:none; }
+  .filter input{ accent-color:var(--gold); }
+  select{ font-family:var(--body); font-weight:600; font-size:13px; border-radius:8px; padding:9px 14px;
+    border:1px solid var(--border); background:var(--surface); color:var(--text); cursor:pointer; }
+
+  .grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(270px,1fr)); gap:18px; }
+
+  .card{ position:relative; background:var(--surface); border:1px solid var(--border);
+    border-radius:4px 14px 14px 4px; padding:18px 16px 16px 22px; }
+  .card::before{ content:""; position:absolute; left:-1px; top:18px; width:14px; height:14px;
+    background:var(--bg); border:1px solid var(--border); border-radius:50%; }
+  .store{ font-size:10px; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted); margin-bottom:4px; }
+  .card-title{ font-family:var(--display); font-size:16px; font-weight:600; line-height:1.25; margin-bottom:10px; padding-right:64px; }
+
+  .stamp{ position:absolute; top:14px; right:12px; font-family:var(--display); font-size:10.5px; font-weight:700;
+    letter-spacing:1px; text-transform:uppercase; padding:4px 8px; border:2px solid currentColor; border-radius:5px; transform:rotate(6deg); }
+  .stamp.deal{ color:var(--green); } .stamp.under{ color:var(--gold); } .stamp.over{ color:var(--red); }
+
+  .specs{ display:flex; flex-direction:column; gap:3px; font-size:12.5px; color:var(--text-muted); margin-bottom:12px; font-family:var(--mono); }
+  .specs b{ color:var(--text); font-weight:500; }
+
+  .priceline{ display:flex; align-items:baseline; gap:8px; border-top:1px dashed var(--border); padding-top:10px; margin-bottom:10px; }
+  .price{ font-family:var(--mono); font-weight:700; font-size:22px; }
+  .price.sale{ color:var(--green); }
+  .price-orig{ font-family:var(--mono); font-size:13px; color:var(--text-muted); text-decoration:line-through; }
+
+  .link{ font-size:12.5px; font-weight:600; color:var(--gold); text-decoration:none; }
+  .link:hover{ text-decoration:underline; }
+
+  .empty{ text-align:center; padding:50px 20px; color:var(--text-muted); border:1px dashed var(--border); border-radius:12px; }
+  .empty b{ color:var(--text); }
+
+  .footer{ margin-top:32px; padding-top:18px; border-top:1px solid var(--border); font-size:12px; color:var(--text-muted); line-height:1.5; }
+
+  @media (max-width:640px){ .header{ align-items:flex-start; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div>
+      <h1 class="title">Build<span>Watch</span></h1>
+      <p class="sub">Auto-scraped prebuilt PC listings — CAD, Canada — updates daily</p>
+    </div>
+    <div class="budget">
+      <label>Budget ceiling</label>
+      <div class="budget-input">$<input id="budget-input" type="number" step="50">CAD</div>
+    </div>
+  </div>
+  <div class="checked" id="checked">Loading last check time…</div>
+
+  <div class="toolbar">
+    <label class="filter"><input type="checkbox" id="filter-sale"> On sale only</label>
+    <select id="sort">
+      <option value="price-asc">Sort: price ↑</option>
+      <option value="price-desc">Sort: price ↓</option>
+    </select>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none;">
+    No listings in the latest snapshot. Either nothing's under budget right now, or the scraper needs a tune-up — check the Actions tab for the last run's log.
+  </div>
+
+  <div class="footer">
+    Refreshed automatically once a day by a scheduled GitHub Action — no one needs to keep this tab open. Source: Canada Computers gaming desktop listings.
+  </div>
+</div>
+
+<script>
+(function(){
+  const BUDGET_KEY = 'bw-budget';
+  let budget = parseFloat(localStorage.getItem(BUDGET_KEY)) || 2000;
+  document.getElementById('budget-input').value = budget;
+
+  let listings = [];
+
+  function fmt(n){ return '$' + Number(n).toLocaleString('en-CA'); }
+  function effectivePrice(l){ return (l.sale && l.sale > 0 && l.sale < l.price) ? l.sale : l.price; }
+  function isOnSale(l){ return !!(l.sale && l.sale > 0 && l.sale < l.price); }
+  function isUnderBudget(l){ return effectivePrice(l) <= budget; }
+  function escapeHtml(s){ const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+  function render(){
+    const grid = document.getElementById('grid');
+    const empty = document.getElementById('empty');
+    const filterSale = document.getElementById('filter-sale').checked;
+    const sortMode = document.getElementById('sort').value;
+
+    let view = listings.filter(l => filterSale ? isOnSale(l) : true);
+    view.sort((a,b) => sortMode === 'price-asc'
+      ? effectivePrice(a) - effectivePrice(b)
+      : effectivePrice(b) - effectivePrice(a));
+
+    grid.innerHTML = '';
+    empty.style.display = listings.length === 0 ? 'block' : 'none';
+
+    view.forEach(l => {
+      const under = isUnderBudget(l);
+      const sale = isOnSale(l);
+      const stampClass = under ? (sale ? 'deal' : 'under') : 'over';
+      const stampText = under ? (sale ? 'Hot deal' : 'In budget') : 'Over budget';
+
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <div class="stamp ${stampClass}">${stampText}</div>
+        <div class="store">${escapeHtml(l.store || '')}</div>
+        <div class="card-title">${escapeHtml(l.title || 'Untitled listing')}</div>
+        <div class="specs">
+          ${l.cpu ? `<div><b>CPU</b> ${escapeHtml(l.cpu)}</div>` : ''}
+          ${l.gpu ? `<div><b>GPU</b> ${escapeHtml(l.gpu)}</div>` : ''}
+          ${l.ram ? `<div><b>RAM</b> ${escapeHtml(String(l.ram))}GB</div>` : ''}
+        </div>
+        <div class="priceline">
+          <span class="price ${sale ? 'sale' : ''}">${fmt(effectivePrice(l))}</span>
+          ${sale ? `<span class="price-orig">${fmt(l.price)}</span>` : ''}
+        </div>
+        <a class="link" href="${l.url}" target="_blank" rel="noopener">View listing →</a>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  document.getElementById('budget-input').addEventListener('change', e => {
+    budget = parseFloat(e.target.value) || 0;
+    localStorage.setItem(BUDGET_KEY, budget);
+    render();
+  });
+  document.getElementById('filter-sale').addEventListener('change', render);
+  document.getElementById('sort').addEventListener('change', render);
+
+  fetch('listings.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      listings = data.listings || [];
+      const when = new Date(data.generatedAt);
+      document.getElementById('checked').innerHTML =
+        'Last checked: <b>' + when.toLocaleString('en-CA') + '</b> · ' + listings.length + ' listings found';
+      render();
+    })
+    .catch(() => {
+      document.getElementById('checked').textContent = 'Could not load listings.json yet — the scraper may not have run for the first time.';
+    });
+})();
+</script>
+</body>
+</html>
