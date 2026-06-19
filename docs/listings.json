@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T01:40:17.144Z",
+  "generatedAt": "2026-06-19T15:59:12.588Z",
   "budget": 2000,
   "listings": [
     {
@@ -11,7 +11,7 @@
       "ram": 32,
       "price": 1499.99,
       "sale": 879.99,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
+      "scrapedAt": "2026-06-19T15:59:12.580Z"
     },
     {
       "title": "Gaming PC Tower ~ Intel Core i7 Processor, 32GB DDR4 RAM, 512GB Nvme SSD, Geforce GTX 1660 Super 6GB, 24 inch Curved Gaming Monitor Windows 11 Pro, WiFi - Refurbished (Excellent)",
@@ -22,7 +22,29 @@
       "ram": 32,
       "price": 1899.99,
       "sale": 969.99,
-      "scrapedAt": "2026-06-19T01:40:17.135Z"
+      "scrapedAt": "2026-06-19T15:59:12.579Z"
+    },
+    {
+      "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB  RAM 1TB SSD W11H(Open Box)",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/267866/armoury-amd-ryzen-7-5700-geforce-rtx-3050-16gb-ram-1tb-ssd-w11h-rtaru00150.html",
+      "cpu": "Ryzen 7 5700",
+      "gpu": "RTX 3050",
+      "ram": null,
+      "price": 1299,
+      "sale": 999.88,
+      "scrapedAt": "2026-06-19T15:59:10.655Z"
+    },
+    {
+      "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB  RAM 1TB SSD W11H",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/258665/armoury-amd-ryzen-7-5700-geforce-rtx-3050-16gb-ram-1tb-ssd-w11h-rtaru00150.html",
+      "cpu": "Ryzen 7 5700",
+      "gpu": "RTX 3050",
+      "ram": null,
+      "price": 1299,
+      "sale": 999.88,
+      "scrapedAt": "2026-06-19T15:59:10.656Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 5 5600GT Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -33,29 +55,7 @@
       "ram": null,
       "price": 1399,
       "sale": 1098.88,
-      "scrapedAt": "2026-06-19T01:40:14.742Z"
-    },
-    {
-      "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB  RAM 1TB SSD W11H(Open Box)",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/267866/armoury-amd-ryzen-7-5700-geforce-rtx-3050-16gb-ram-1tb-ssd-w11h-rtaru00150.html",
-      "cpu": "Ryzen 7 5700",
-      "gpu": "RTX 3050",
-      "ram": null,
-      "price": 1299,
-      "sale": 1098.88,
-      "scrapedAt": "2026-06-19T01:40:14.743Z"
-    },
-    {
-      "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB  RAM 1TB SSD W11H",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/258665/armoury-amd-ryzen-7-5700-geforce-rtx-3050-16gb-ram-1tb-ssd-w11h-rtaru00150.html",
-      "cpu": "Ryzen 7 5700",
-      "gpu": "RTX 3050",
-      "ram": null,
-      "price": 1299,
-      "sale": 1098.88,
-      "scrapedAt": "2026-06-19T01:40:14.744Z"
+      "scrapedAt": "2026-06-19T15:59:10.657Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H(Open Box)",
@@ -66,7 +66,7 @@
       "ram": null,
       "price": 1499,
       "sale": 1099,
-      "scrapedAt": "2026-06-19T01:40:14.744Z"
+      "scrapedAt": "2026-06-19T15:59:10.657Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -77,7 +77,7 @@
       "ram": null,
       "price": 1499,
       "sale": 1099,
-      "scrapedAt": "2026-06-19T01:40:14.744Z"
+      "scrapedAt": "2026-06-19T15:59:10.657Z"
     },
     {
       "title": "Uniway NOVA Series Gaming PC – White – AMD Ryzen 5 5500, GeForce RTX 5060, 16 GB RAM, 1 TB NVMe SSD, High Value Performance Build, Windows 11 Pro, 1-Year Warranty",
@@ -88,7 +88,18 @@
       "ram": 16,
       "price": 1499.99,
       "sale": 1299.99,
-      "scrapedAt": "2026-06-19T01:40:17.137Z"
+      "scrapedAt": "2026-06-19T15:59:12.581Z"
+    },
+    {
+      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/288258/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
+      "cpu": "Ryzen 7 5700",
+      "gpu": "RX 9060 XT",
+      "ram": null,
+      "price": 1699,
+      "sale": 1399,
+      "scrapedAt": "2026-06-19T15:59:10.658Z"
     },
     {
       "title": "MSI Codex R2 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -99,7 +110,18 @@
       "ram": null,
       "price": 1699,
       "sale": 1399,
-      "scrapedAt": "2026-06-19T01:40:14.745Z"
+      "scrapedAt": "2026-06-19T15:59:10.658Z"
+    },
+    {
+      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/267853/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
+      "cpu": "Ryzen 7 5700",
+      "gpu": "RX 9060 XT",
+      "ram": null,
+      "price": 1699,
+      "sale": 1399,
+      "scrapedAt": "2026-06-19T15:59:10.658Z"
     },
     {
       "title": "Acer Nitro N60-640-EB22 Gaming PC (Intel Core i5-14400F/16GB RAM/1TB SSD/GeForce RTX 5060/Windows 11)",
@@ -110,51 +132,7 @@
       "ram": 16,
       "price": 1599.99,
       "sale": 1399.99,
-      "scrapedAt": "2026-06-19T01:40:17.135Z"
-    },
-    {
-      "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/gaming-desktop-pcs/287055/acer-nitro-60-intel-i5-14400f-rtx-5060-16gb-ram-1tb-ssd-win11h-n60-640-ur21.html",
-      "cpu": "i5 14400F",
-      "gpu": "RTX 5060",
-      "ram": null,
-      "price": 1699.99,
-      "sale": 1449.99,
-      "scrapedAt": "2026-06-19T01:40:14.745Z"
-    },
-    {
-      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/288258/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
-      "cpu": "Ryzen 7 5700",
-      "gpu": "RX 9060 XT",
-      "ram": null,
-      "price": 1699,
-      "sale": 1499,
-      "scrapedAt": "2026-06-19T01:40:14.745Z"
-    },
-    {
-      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/267853/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
-      "cpu": "Ryzen 7 5700",
-      "gpu": "RX 9060 XT",
-      "ram": null,
-      "price": 1699,
-      "sale": 1499,
-      "scrapedAt": "2026-06-19T01:40:14.745Z"
-    },
-    {
-      "title": "Thermaltake LCGS View Gaming PC (Intel Core i5-14400F/16GB RAM/1TB SSD/GeForce RTX 5060/Win11) - En",
-      "store": "Best Buy Canada",
-      "url": "https://www.bestbuy.ca/en-ca/product/thermaltake-lcgs-view-gaming-pc-intel-core-i5-14400f-16gb-ram-1tb-ssd-geforce-rtx-5060-win11-en/19726430",
-      "cpu": "Core i5-14400F",
-      "gpu": "RTX 5060",
-      "ram": 16,
-      "price": 1999.99,
-      "sale": 1549.99,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
+      "scrapedAt": "2026-06-19T15:59:12.579Z"
     },
     {
       "title": "ASUS G13CHR Desktop i5-14400F RTX 4060 32GB 1TB SSD Win11(Open Box)",
@@ -165,7 +143,7 @@
       "ram": null,
       "price": 1574.99,
       "sale": 0,
-      "scrapedAt": "2026-06-19T01:40:14.745Z"
+      "scrapedAt": "2026-06-19T15:59:10.658Z"
     },
     {
       "title": "MSI Codex R2 Intel i7 14700F RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -176,7 +154,18 @@
       "ram": null,
       "price": 1899,
       "sale": 1599,
-      "scrapedAt": "2026-06-19T01:40:14.746Z"
+      "scrapedAt": "2026-06-19T15:59:10.658Z"
+    },
+    {
+      "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/gaming-desktop-pcs/287055/acer-nitro-60-intel-i5-14400f-rtx-5060-16gb-ram-1tb-ssd-win11h-n60-640-ur21.html",
+      "cpu": "i5 14400F",
+      "gpu": "RTX 5060",
+      "ram": null,
+      "price": 1699.99,
+      "sale": 1599.99,
+      "scrapedAt": "2026-06-19T15:59:10.659Z"
     },
     {
       "title": "UNIWAY GAMING PC Pulse Series - Ryzen 7-5700X, RTX 5060, 32 GB RAM, 1 TB NVMe SSD, AIO Liquid Cooler, Windows 11 Pro, AI‑Ready, 1‑Year Warranty - Black",
@@ -187,7 +176,18 @@
       "ram": 32,
       "price": 2499.99,
       "sale": 1599.99,
-      "scrapedAt": "2026-06-19T01:40:17.135Z"
+      "scrapedAt": "2026-06-19T15:59:12.579Z"
+    },
+    {
+      "title": "Thermaltake LCGS View Gaming PC (Intel Core i5-14400F/16GB RAM/1TB SSD/GeForce RTX 5060/Win11) - En",
+      "store": "Best Buy Canada",
+      "url": "https://www.bestbuy.ca/en-ca/product/thermaltake-lcgs-view-gaming-pc-intel-core-i5-14400f-16gb-ram-1tb-ssd-geforce-rtx-5060-win11-en/19726430",
+      "cpu": "Core i5-14400F",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "price": 1999.99,
+      "sale": 1599.99,
+      "scrapedAt": "2026-06-19T15:59:12.580Z"
     },
     {
       "title": "Uniway Gaming PC Pulse Serise - Ryzen7 5700X, RTX 5060, 32 GB RAM, 1 TB NVMe SSD, AIO Liquid Cooler, Win11 Pro - White",
@@ -198,7 +198,7 @@
       "ram": 32,
       "price": 2199.99,
       "sale": 1649.99,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
+      "scrapedAt": "2026-06-19T15:59:12.580Z"
     },
     {
       "title": "ASUS GM700 Gaming PC (AMD Ryzen 7 8700F/16GB RAM/1TB SSD/NVIDIA GeForce RTX 5060/Windows 11)",
@@ -209,7 +209,7 @@
       "ram": 16,
       "price": 1999.99,
       "sale": 1749.99,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
+      "scrapedAt": "2026-06-19T15:59:12.579Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 8700F Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -220,7 +220,7 @@
       "ram": null,
       "price": 1799,
       "sale": 0,
-      "scrapedAt": "2026-06-19T01:40:14.746Z"
+      "scrapedAt": "2026-06-19T15:59:10.659Z"
     },
     {
       "title": "MSI Codex Z2 Gaming PC - Black (AMD Ryzen R7-8700F/16GB RAM/1TB SSD/GeForce RTX 5060 Ti/Windows 11)",
@@ -231,18 +231,29 @@
       "ram": 16,
       "price": 2299.99,
       "sale": 1799.99,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
+      "scrapedAt": "2026-06-19T15:59:12.579Z"
     },
     {
-      "title": "MSI Aegis Gaming PC - Black (AMD Ryzen R7-8700F/16GB RAM/2TB SSD/NVIDIA GeForce RTX 5060/Windows 11)",
+      "title": "Acer Nitro N60-640-EB23 Gaming PC (Intel Core i7-14700F/32GB RAM/1TB SSD/GeForce RTX 5060/Windows 11)",
       "store": "Best Buy Canada",
-      "url": "https://www.bestbuy.ca/en-ca/product/msi-aegis-gaming-pc-black-amd-ryzen-r7-8700f-16gb-ram-2tb-ssd-nvidia-geforce-rtx-5060-windows-11/19717533",
-      "cpu": "Ryzen R7-8700F",
+      "url": "https://www.bestbuy.ca/en-ca/product/acer-nitro-n60-640-eb23-gaming-pc-intel-core-i7-14700f-32gb-ram-1tb-ssd-geforce-rtx-5060-windows-11/19339617",
+      "cpu": "Core i7-14700F",
       "gpu": "RTX 5060",
-      "ram": 16,
-      "price": 1999.99,
+      "ram": 32,
+      "price": 1899.99,
       "sale": 1799.99,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
+      "scrapedAt": "2026-06-19T15:59:12.580Z"
+    },
+    {
+      "title": "ASUS G700 Gaming PC (Intel Core Ultra 7 265F/32GB RAM/2TB SSD/NVIDIA GeForce RTX 5060 DUAL/Windows 11)",
+      "store": "Best Buy Canada",
+      "url": "https://www.bestbuy.ca/en-ca/product/asus-g700-gaming-pc-intel-core-ultra-7-265f-32gb-ram-2tb-ssd-nvidia-geforce-rtx-5060-dual-windows-11/19601487",
+      "cpu": "Core Ultra 7 265F/32GB",
+      "gpu": "RTX 5060",
+      "ram": 32,
+      "price": 2399.99,
+      "sale": 1799.99,
+      "scrapedAt": "2026-06-19T15:59:12.581Z"
     },
     {
       "title": "Refurbished (Excellent) MSI Codex R2 Gaming Desktop – Intel Core i7-14700F, 32GB DDR5, 2TB PCIe Gen4 NVMe SSD, GeForce RTX 5060, Wi-Fi 6E, 2.5G Ethernet, 650W Gold PSU, Black",
@@ -253,18 +264,18 @@
       "ram": 32,
       "price": 2999.99,
       "sale": 1869.99,
-      "scrapedAt": "2026-06-19T01:40:17.137Z"
+      "scrapedAt": "2026-06-19T15:59:12.581Z"
     },
     {
-      "title": "Lenovo Legion Tower 5i Gaming PC - Storm Grey (Intel Core i5 14400F/32GB RAM/1TB SSD/ RTX 4060/Win 11)",
+      "title": "MSI Aegis Gaming PC - Black (AMD Ryzen R7-8700F/16GB RAM/2TB SSD/NVIDIA GeForce RTX 5060/Windows 11)",
       "store": "Best Buy Canada",
-      "url": "https://www.bestbuy.ca/en-ca/product/lenovo-legion-tower-5i-gaming-pc-storm-grey-intel-core-i5-14400f-32gb-ram-1tb-ssd-rtx-4060-win-11/17745159",
-      "cpu": "Core i5",
-      "gpu": "RTX 4060",
-      "ram": 32,
+      "url": "https://www.bestbuy.ca/en-ca/product/msi-aegis-gaming-pc-black-amd-ryzen-r7-8700f-16gb-ram-2tb-ssd-nvidia-geforce-rtx-5060-windows-11/19717533",
+      "cpu": "Ryzen R7-8700F",
+      "gpu": "RTX 5060",
+      "ram": 16,
       "price": 1999.99,
       "sale": 0,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
+      "scrapedAt": "2026-06-19T15:59:12.580Z"
     },
     {
       "title": "TECHNOID Glass Black Gaming PC – GeForce RTX 5070 – AMD Ryzen 7 – 32GB Ram – 1TB SSD – AI Ready – VR Compatible – Win 11 Home",
@@ -275,18 +286,7 @@
       "ram": 32,
       "price": 2999.99,
       "sale": 2199.99,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
-    },
-    {
-      "title": "Acer Nitro N60-640-EB23 Gaming PC (Intel Core i7-14700F/32GB RAM/1TB SSD/GeForce RTX 5060/Windows 11)",
-      "store": "Best Buy Canada",
-      "url": "https://www.bestbuy.ca/en-ca/product/acer-nitro-n60-640-eb23-gaming-pc-intel-core-i7-14700f-32gb-ram-1tb-ssd-geforce-rtx-5060-windows-11/19339617",
-      "cpu": "Core i7-14700F",
-      "gpu": "RTX 5060",
-      "ram": 32,
-      "price": 2299.99,
-      "sale": 0,
-      "scrapedAt": "2026-06-19T01:40:17.136Z"
+      "scrapedAt": "2026-06-19T15:59:12.580Z"
     }
   ]
 }
