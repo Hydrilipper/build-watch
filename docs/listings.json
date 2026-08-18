@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:38:08.431Z",
+  "generatedAt": "2026-08-18T13:40:58.123Z",
   "budget": 2000,
   "listings": [
     {
@@ -11,7 +11,7 @@
       "ram": 16,
       "price": 1099.97,
       "sale": 949.97,
-      "scrapedAt": "2026-08-17T13:38:08.418Z"
+      "scrapedAt": "2026-08-18T13:40:58.112Z"
     },
     {
       "title": "Refurbished (Excellent) - Gaming PC Tower - GTX 1660 Super 6GB, Intel Core i7, 32GB Memory, 512GB SSD, Win 11 Pro + 24\" Curved Monitor",
@@ -22,7 +22,7 @@
       "ram": 6,
       "price": 1899.99,
       "sale": 1049.99,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "scrapedAt": "2026-08-18T13:40:58.112Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H(Open Box)",
@@ -31,9 +31,9 @@
       "cpu": "Ryzen 7 5700",
       "gpu": "RTX 3050",
       "ram": null,
-      "price": 1519.05,
+      "price": 1234.05,
       "sale": 1139.05,
-      "scrapedAt": "2026-08-17T13:38:06.333Z"
+      "scrapedAt": "2026-08-18T13:40:55.156Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -42,9 +42,9 @@
       "cpu": "Ryzen 7 5700",
       "gpu": "RTX 3050",
       "ram": null,
-      "price": 1599,
+      "price": 1299,
       "sale": 1199,
-      "scrapedAt": "2026-08-17T13:38:06.334Z"
+      "scrapedAt": "2026-08-18T13:40:55.157Z"
     },
     {
       "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H(Open Box)",
@@ -55,7 +55,7 @@
       "ram": null,
       "price": 1439.1,
       "sale": 1304.1,
-      "scrapedAt": "2026-08-17T13:38:06.334Z"
+      "scrapedAt": "2026-08-18T13:40:55.157Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -66,18 +66,18 @@
       "ram": null,
       "price": 1399,
       "sale": 0,
-      "scrapedAt": "2026-08-17T13:38:06.335Z"
+      "scrapedAt": "2026-08-18T13:40:55.157Z"
     },
     {
-      "title": "UNIWAY NOVA Gaming PC - RTX 5060, AMD Ryzen 5 5500, 16GB Memory, 1TB SSD, Win 11 Pro, White, 1-Year Warranty",
-      "store": "Best Buy Canada",
-      "url": "https://www.bestbuy.ca/en-ca/product/uniway-nova-gaming-pc-rtx-5060-amd-ryzen-5-5500-16gb-memory-1tb-ssd-win-11-pro-white-1-year-warranty/19594525",
-      "cpu": "Ryzen 5",
-      "gpu": "RTX 5060",
-      "ram": 16,
-      "price": 1499.99,
-      "sale": 1399.99,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/288258/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
+      "cpu": "Ryzen 7 5700",
+      "gpu": "RX 9060 XT",
+      "ram": null,
+      "price": 1614.05,
+      "sale": 1424.05,
+      "scrapedAt": "2026-08-18T13:40:55.157Z"
     },
     {
       "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -88,7 +88,18 @@
       "ram": null,
       "price": 1599,
       "sale": 1449,
-      "scrapedAt": "2026-08-17T13:38:06.335Z"
+      "scrapedAt": "2026-08-18T13:40:55.157Z"
+    },
+    {
+      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/267853/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
+      "cpu": "Ryzen 7 5700",
+      "gpu": "RX 9060 XT",
+      "ram": null,
+      "price": 1699,
+      "sale": 1499,
+      "scrapedAt": "2026-08-18T13:40:55.157Z"
     },
     {
       "title": "Thermaltake LCGS View Gaming PC - RTX 5060, Intel Core i5-14400F, 16GB Memory, 1TB SSD, Win 11",
@@ -99,7 +110,18 @@
       "ram": 16,
       "price": 1999.99,
       "sale": 1499.99,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "scrapedAt": "2026-08-18T13:40:58.120Z"
+    },
+    {
+      "title": "UNIWAY NOVA Gaming PC - RTX 5060, AMD Ryzen 5 5500, 16GB Memory, 1TB SSD, Win 11 Pro, White, 1-Year Warranty",
+      "store": "Best Buy Canada",
+      "url": "https://www.bestbuy.ca/en-ca/product/uniway-nova-gaming-pc-rtx-5060-amd-ryzen-5-5500-16gb-memory-1tb-ssd-win-11-pro-white-1-year-warranty/19594525",
+      "cpu": "Ryzen 5",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "price": 1499.99,
+      "sale": 0,
+      "scrapedAt": "2026-08-18T13:40:58.120Z"
     },
     {
       "title": "ARMOURY Intel Ultra 5 225F GeForce RTX 5060 32GB RAM 1TB SSD W11H(Open Box)",
@@ -110,7 +132,7 @@
       "ram": null,
       "price": 1994.05,
       "sale": 1614.05,
-      "scrapedAt": "2026-08-17T13:38:06.335Z"
+      "scrapedAt": "2026-08-18T13:40:55.158Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 8700F GeForce RTX 5060 16GB RAM 1TB SSD W11H",
@@ -121,7 +143,7 @@
       "ram": null,
       "price": 1899,
       "sale": 1699,
-      "scrapedAt": "2026-08-17T13:38:06.336Z"
+      "scrapedAt": "2026-08-18T13:40:55.158Z"
     },
     {
       "title": "MSI Codex R2 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -132,7 +154,7 @@
       "ram": null,
       "price": 1699,
       "sale": 0,
-      "scrapedAt": "2026-08-17T13:38:06.336Z"
+      "scrapedAt": "2026-08-18T13:40:55.158Z"
     },
     {
       "title": "ARMOURY Intel Ultra 5 225F GeForce RTX 5060 32GB RAM 1TB SSD W11H",
@@ -143,7 +165,7 @@
       "ram": null,
       "price": 2099,
       "sale": 1699,
-      "scrapedAt": "2026-08-17T13:38:06.336Z"
+      "scrapedAt": "2026-08-18T13:40:55.158Z"
     },
     {
       "title": "MSI Aegis Gaming PC - RTX 5060, AMD Ryzen 7 8700F, 16GB Memory, 2TB SSD, Win 11, Black",
@@ -154,7 +176,7 @@
       "ram": 16,
       "price": 1999.99,
       "sale": 1699.99,
-      "scrapedAt": "2026-08-17T13:38:08.418Z"
+      "scrapedAt": "2026-08-18T13:40:58.112Z"
     },
     {
       "title": "Uniway Pulse Gaming PC - RTX 5060, AMD Ryzen 7 5700X, 32GB Memory, 1TB SSD, Win 11 Pro, White, Liquid Cooled",
@@ -165,18 +187,18 @@
       "ram": 32,
       "price": 2199.99,
       "sale": 1699.99,
-      "scrapedAt": "2026-08-17T13:38:08.418Z"
+      "scrapedAt": "2026-08-18T13:40:58.112Z"
     },
     {
-      "title": "UNIWAY Pulse Gaming PC - RTX 5060, AMD Ryzen 7 5700X, 32GB Memory, 1TB SSD, Win 11 Pro, Black, Liquid Cooled, 1-Year Warranty",
+      "title": "Lenovo LOQ Tower Desktop - RTX 5060, AMD Ryzen 7 8745HX, 32GB Memory, 1TB SSD, Win 11, Luna Gray/Eclipse Black",
       "store": "Best Buy Canada",
-      "url": "https://www.bestbuy.ca/en-ca/product/uniway-pulse-gaming-pc-rtx-5060-amd-ryzen-7-5700x-32gb-memory-1tb-ssd-win-11-pro-black-liquid-cooled-1-year-warranty/19618548",
+      "url": "https://www.bestbuy.ca/en-ca/product/lenovo-loq-tower-desktop-rtx-5060-amd-ryzen-7-8745hx-32gb-memory-1tb-ssd-win-11-luna-gray-eclipse-black/19781815",
       "cpu": "Ryzen 7",
       "gpu": "RTX 5060",
       "ram": 32,
-      "price": 2499.99,
+      "price": 2799.99,
       "sale": 1699.99,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "scrapedAt": "2026-08-18T13:40:58.112Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 8700F GeForce RTX 5060 Ti 16GB RAM 1TB SSD W11H(Open Box)",
@@ -187,29 +209,7 @@
       "ram": null,
       "price": 1899.05,
       "sale": 1709.05,
-      "scrapedAt": "2026-08-17T13:38:06.336Z"
-    },
-    {
-      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/288258/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
-      "cpu": "Ryzen 7 5700",
-      "gpu": "RX 9060 XT",
-      "ram": null,
-      "price": 1709.05,
-      "sale": 0,
-      "scrapedAt": "2026-08-17T13:38:06.336Z"
-    },
-    {
-      "title": "ARMOURY AMD Ryzen 7 8700F GeForce RTX 5060 Ti 16GB RAM 1TB SSD W11H",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/286244/armoury-amd-ryzen-7-8700f-geforce-rtx-5060-ti-16gb-ram-1tb-ssd-w11h-rtaru00397.html",
-      "cpu": "Ryzen 7 8700F",
-      "gpu": "RTX 5060 Ti",
-      "ram": null,
-      "price": 1999,
-      "sale": 1799,
-      "scrapedAt": "2026-08-17T13:38:06.337Z"
+      "scrapedAt": "2026-08-18T13:40:55.158Z"
     },
     {
       "title": "HP OMEN 16L Gaming PC - RTX 5060 Ti, AMD Ryzen 7 8700F, 16GB Memory, 1TB SSD, White - Only at Best Buy",
@@ -220,7 +220,7 @@
       "ram": 16,
       "price": 1899.99,
       "sale": 1799.99,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "scrapedAt": "2026-08-18T13:40:58.112Z"
     },
     {
       "title": "iBUYPOWER Element Gaming PC - RTX 5060 Ti, Intel Core i5-14400F, 32GB Memory, 1TB SSD, Win 11 Home, RGB + Keyboard & Mouse",
@@ -231,7 +231,7 @@
       "ram": 32,
       "price": 2699.99,
       "sale": 1869.99,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "scrapedAt": "2026-08-18T13:40:58.120Z"
     },
     {
       "title": "Acer Aspire Nitro 65 Gaming PC - RTX 5060 Ti, AMD Ryzen 7 8700F, 16GB Memory, 1TB SSD, Win 11",
@@ -242,7 +242,7 @@
       "ram": 16,
       "price": 2499.99,
       "sale": 1879.99,
-      "scrapedAt": "2026-08-17T13:38:08.418Z"
+      "scrapedAt": "2026-08-18T13:40:58.112Z"
     },
     {
       "title": "MSI Codex Z2 Gaming PC - RTX 5060 Ti, AMD Ryzen 7 8700F, 32GB Memory, 1TB SSD, Win 11",
@@ -253,7 +253,7 @@
       "ram": 32,
       "price": 2299.99,
       "sale": 1999.99,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "scrapedAt": "2026-08-18T13:40:58.120Z"
     },
     {
       "title": "ViprTech Reaper 3.0 Liquid-Cooled PC - AMD Ryzen 7 8700F (5.0Ghz Turbo), RTX 5070 12GB, 16GB DDR5, 1TB SSD, VR-Ready, Streaming, Win 11, Gaming Desktop Computer, Onyx Black",
@@ -264,7 +264,7 @@
       "ram": 16,
       "price": 2999.99,
       "sale": 2199.99,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "scrapedAt": "2026-08-18T13:40:58.119Z"
     },
     {
       "title": "ASUS ROG GM700 Gaming PC - RX 9060 XT, AMD Ryzen 7 8700F, 32GB Memory, 2TB SSD, Win 11",
@@ -275,7 +275,7 @@
       "ram": 32,
       "price": 2299.99,
       "sale": 0,
-      "scrapedAt": "2026-08-17T13:38:08.418Z"
+      "scrapedAt": "2026-08-18T13:40:58.112Z"
     },
     {
       "title": "MSI Codex Z2 Gaming PC - RTX 5060 Ti, AMD Ryzen 7 8700F, 16GB Memory, 1TB SSD, Win 11, Black - Only at Best Buy",
@@ -286,7 +286,7 @@
       "ram": 16,
       "price": 2299.99,
       "sale": 0,
-      "scrapedAt": "2026-08-17T13:38:08.419Z"
+      "scrapedAt": "2026-08-18T13:40:58.120Z"
     }
   ]
 }
