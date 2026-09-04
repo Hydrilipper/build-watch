@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T16:56:19.167Z",
+  "generatedAt": "2026-09-04T16:44:17.012Z",
   "budget": 2000,
   "listings": [
     {
@@ -11,7 +11,7 @@
       "ram": null,
       "price": 1234.05,
       "sale": 1139.05,
-      "scrapedAt": "2026-09-03T16:56:17.160Z"
+      "scrapedAt": "2026-09-04T16:44:15.688Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -22,7 +22,7 @@
       "ram": null,
       "price": 1299,
       "sale": 1199,
-      "scrapedAt": "2026-09-03T16:56:17.161Z"
+      "scrapedAt": "2026-09-04T16:44:15.688Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -33,7 +33,7 @@
       "ram": null,
       "price": 1399,
       "sale": 0,
-      "scrapedAt": "2026-09-03T16:56:17.161Z"
+      "scrapedAt": "2026-09-04T16:44:15.688Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -44,7 +44,7 @@
       "ram": null,
       "price": 1399,
       "sale": 0,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
+      "scrapedAt": "2026-09-04T16:44:15.689Z"
     },
     {
       "title": "MSI Codex R2 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -55,7 +55,7 @@
       "ram": null,
       "price": 1699,
       "sale": 1399,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
+      "scrapedAt": "2026-09-04T16:44:15.689Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
@@ -66,7 +66,7 @@
       "ram": null,
       "price": 1519.05,
       "sale": 1424.05,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
+      "scrapedAt": "2026-09-04T16:44:15.689Z"
     },
     {
       "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H(Open Box)",
@@ -77,7 +77,7 @@
       "ram": null,
       "price": 1439.1,
       "sale": 0,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
+      "scrapedAt": "2026-09-04T16:44:15.689Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -88,7 +88,7 @@
       "ram": null,
       "price": 1599,
       "sale": 1499,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
+      "scrapedAt": "2026-09-04T16:44:15.689Z"
     },
     {
       "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -99,18 +99,7 @@
       "ram": null,
       "price": 1599,
       "sale": 0,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
-    },
-    {
-      "title": "ARMOURY Intel Ultra 5 225F GeForce RTX 5060 32GB RAM 1TB SSD W11H(Open Box)",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/289176/armoury-intel-ultra-5-225f-geforce-rtx-5060-32gb-ram-1tb-ssd-w11h-rtaru00266.html",
-      "cpu": "Ultra 5 225F",
-      "gpu": "RTX 5060",
-      "ram": null,
-      "price": 1994.05,
-      "sale": 1614.05,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
+      "scrapedAt": "2026-09-04T16:44:15.689Z"
     },
     {
       "title": "Lenovo LOQ Tower AMD Ryzen 7 8745HX RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -121,7 +110,7 @@
       "ram": null,
       "price": 2599,
       "sale": 1699,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
+      "scrapedAt": "2026-09-04T16:44:15.689Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 5060 16GB RAM 1TB SSD W11H",
@@ -132,7 +121,18 @@
       "ram": null,
       "price": 1699,
       "sale": 0,
-      "scrapedAt": "2026-09-03T16:56:17.162Z"
+      "scrapedAt": "2026-09-04T16:44:15.690Z"
+    },
+    {
+      "title": "ARMOURY AMD Ryzen 7 8700F Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/286243/armoury-amd-ryzen-7-8700f-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00396.html",
+      "cpu": "Ryzen 7 8700F",
+      "gpu": "RX 9060 XT",
+      "ram": null,
+      "price": 1799,
+      "sale": 1699,
+      "scrapedAt": "2026-09-04T16:44:15.690Z"
     }
   ]
 }
