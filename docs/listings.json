@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:31:02.402Z",
+  "generatedAt": "2026-09-28T20:00:21.263Z",
   "budget": 2000,
   "listings": [
     {
@@ -11,7 +11,7 @@
       "ram": null,
       "price": 1329.05,
       "sale": 1139.05,
-      "scrapedAt": "2026-09-27T17:31:00.352Z"
+      "scrapedAt": "2026-09-28T20:00:20.122Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -22,7 +22,7 @@
       "ram": null,
       "price": 1399,
       "sale": 1199,
-      "scrapedAt": "2026-09-27T17:31:00.353Z"
+      "scrapedAt": "2026-09-28T20:00:20.123Z"
     },
     {
       "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H(Open Box)",
@@ -33,18 +33,18 @@
       "ram": null,
       "price": 1439.1,
       "sale": 1259.1,
-      "scrapedAt": "2026-09-27T17:31:00.353Z"
+      "scrapedAt": "2026-09-28T20:00:20.123Z"
     },
     {
-      "title": "MSI Codex R2 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
+      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
       "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/gaming-desktop-pcs/275404/msi-codex-r2-intel-i5-14400f-rtx-5060-16gb-ram-1tb-ssd-win11h-codex-r2-b14nvl5-447us.html",
-      "cpu": "i5 14400F",
-      "gpu": "RTX 5060",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/288258/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
+      "cpu": "Ryzen 7 5700",
+      "gpu": "RX 9060 XT",
       "ram": null,
-      "price": 1699,
-      "sale": 1299.88,
-      "scrapedAt": "2026-09-27T17:31:00.354Z"
+      "price": 1519.05,
+      "sale": 1329.05,
+      "scrapedAt": "2026-09-28T20:00:20.123Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -55,7 +55,7 @@
       "ram": null,
       "price": 1399,
       "sale": 0,
-      "scrapedAt": "2026-09-27T17:31:00.354Z"
+      "scrapedAt": "2026-09-28T20:00:20.123Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -66,7 +66,7 @@
       "ram": null,
       "price": 1399,
       "sale": 0,
-      "scrapedAt": "2026-09-27T17:31:00.354Z"
+      "scrapedAt": "2026-09-28T20:00:20.124Z"
     },
     {
       "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -77,18 +77,7 @@
       "ram": null,
       "price": 1599,
       "sale": 1399,
-      "scrapedAt": "2026-09-27T17:31:00.354Z"
-    },
-    {
-      "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/288258/armoury-amd-ryzen-7-5700-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00162.html",
-      "cpu": "Ryzen 7 5700",
-      "gpu": "RX 9060 XT",
-      "ram": null,
-      "price": 1519.05,
-      "sale": 0,
-      "scrapedAt": "2026-09-27T17:31:00.354Z"
+      "scrapedAt": "2026-09-28T20:00:20.124Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -98,8 +87,8 @@
       "gpu": "RX 9060 XT",
       "ram": null,
       "price": 1599,
-      "sale": 0,
-      "scrapedAt": "2026-09-27T17:31:00.354Z"
+      "sale": 1399,
+      "scrapedAt": "2026-09-28T20:00:20.124Z"
     },
     {
       "title": "Lenovo LOQ Tower AMD Ryzen 7 8745HX RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -110,7 +99,7 @@
       "ram": null,
       "price": 2599,
       "sale": 1699,
-      "scrapedAt": "2026-09-27T17:31:00.355Z"
+      "scrapedAt": "2026-09-28T20:00:20.124Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 5060 16GB RAM 1TB SSD W11H",
@@ -121,7 +110,18 @@
       "ram": null,
       "price": 1699,
       "sale": 0,
-      "scrapedAt": "2026-09-27T17:31:00.355Z"
+      "scrapedAt": "2026-09-28T20:00:20.125Z"
+    },
+    {
+      "title": "ARMOURY AMD Ryzen 7 8700F Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/286243/armoury-amd-ryzen-7-8700f-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00396.html",
+      "cpu": "Ryzen 7 8700F",
+      "gpu": "RX 9060 XT",
+      "ram": null,
+      "price": 1799,
+      "sale": 1699,
+      "scrapedAt": "2026-09-28T20:00:20.125Z"
     }
   ]
 }
