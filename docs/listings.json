@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T17:36:53.913Z",
+  "generatedAt": "2026-10-16T17:10:28.258Z",
   "budget": 2000,
   "listings": [
     {
@@ -11,7 +11,7 @@
       "ram": null,
       "price": 999,
       "sale": 0,
-      "scrapedAt": "2026-10-15T17:36:53.256Z"
+      "scrapedAt": "2026-10-16T17:10:27.073Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H(Open Box)",
@@ -22,7 +22,7 @@
       "ram": null,
       "price": 1329.05,
       "sale": 1139.05,
-      "scrapedAt": "2026-10-15T17:36:53.257Z"
+      "scrapedAt": "2026-10-16T17:10:27.074Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -33,18 +33,7 @@
       "ram": null,
       "price": 1399,
       "sale": 1199,
-      "scrapedAt": "2026-10-15T17:36:53.258Z"
-    },
-    {
-      "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H(Open Box)",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/gaming-desktop-pcs/288514/acer-nitro-60-intel-i5-14400f-rtx-5060-16gb-ram-1tb-ssd-win11h-n60-640-ur21.html",
-      "cpu": "i5 14400F",
-      "gpu": "RTX 5060",
-      "ram": null,
-      "price": 1439.1,
-      "sale": 1304.1,
-      "scrapedAt": "2026-10-15T17:36:53.258Z"
+      "scrapedAt": "2026-10-16T17:10:27.075Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H(Open Box)",
@@ -55,7 +44,18 @@
       "ram": null,
       "price": 1329.05,
       "sale": 0,
-      "scrapedAt": "2026-10-15T17:36:53.257Z"
+      "scrapedAt": "2026-10-16T17:10:27.074Z"
+    },
+    {
+      "title": "ARMOURY AMD Ryzen 5 5600GT Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/279164/armoury-amd-ryzen-5-5600gt-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00334.html",
+      "cpu": "Ryzen 5 5600GT",
+      "gpu": "RX 9060 XT",
+      "ram": null,
+      "price": 1399,
+      "sale": 0,
+      "scrapedAt": "2026-10-16T17:10:27.075Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -66,7 +66,7 @@
       "ram": null,
       "price": 1399,
       "sale": 0,
-      "scrapedAt": "2026-10-15T17:36:53.258Z"
+      "scrapedAt": "2026-10-16T17:10:27.075Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -77,7 +77,7 @@
       "ram": null,
       "price": 1399,
       "sale": 0,
-      "scrapedAt": "2026-10-15T17:36:53.258Z"
+      "scrapedAt": "2026-10-16T17:10:27.076Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
@@ -88,18 +88,18 @@
       "ram": null,
       "price": 1614.05,
       "sale": 1424.05,
-      "scrapedAt": "2026-10-15T17:36:53.259Z"
+      "scrapedAt": "2026-10-16T17:10:27.076Z"
     },
     {
-      "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
+      "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H(Open Box)",
       "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/gaming-desktop-pcs/287055/acer-nitro-60-intel-i5-14400f-rtx-5060-16gb-ram-1tb-ssd-win11h-n60-640-ur21.html",
+      "url": "https://www.canadacomputers.com/en/gaming-desktop-pcs/288514/acer-nitro-60-intel-i5-14400f-rtx-5060-16gb-ram-1tb-ssd-win11h-n60-640-ur21.html",
       "cpu": "i5 14400F",
       "gpu": "RTX 5060",
       "ram": null,
-      "price": 1599,
-      "sale": 1449,
-      "scrapedAt": "2026-10-15T17:36:53.258Z"
+      "price": 1439.1,
+      "sale": 0,
+      "scrapedAt": "2026-10-16T17:10:27.076Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -110,7 +110,18 @@
       "ram": null,
       "price": 1699,
       "sale": 1499,
-      "scrapedAt": "2026-10-15T17:36:53.259Z"
+      "scrapedAt": "2026-10-16T17:10:27.077Z"
+    },
+    {
+      "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/gaming-desktop-pcs/287055/acer-nitro-60-intel-i5-14400f-rtx-5060-16gb-ram-1tb-ssd-win11h-n60-640-ur21.html",
+      "cpu": "i5 14400F",
+      "gpu": "RTX 5060",
+      "ram": null,
+      "price": 1599,
+      "sale": 0,
+      "scrapedAt": "2026-10-16T17:10:27.076Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 5060 16GB RAM 1TB SSD W11H",
@@ -121,18 +132,7 @@
       "ram": null,
       "price": 1799,
       "sale": 0,
-      "scrapedAt": "2026-10-15T17:36:53.259Z"
-    },
-    {
-      "title": "ARMOURY AMD Ryzen 7 8700F Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
-      "store": "Canada Computers",
-      "url": "https://www.canadacomputers.com/en/armoury-gaming-desktops/286243/armoury-amd-ryzen-7-8700f-radeon-rx-9060-xt-16gb-ram-1tb-ssd-w11h-rtaru00396.html",
-      "cpu": "Ryzen 7 8700F",
-      "gpu": "RX 9060 XT",
-      "ram": null,
-      "price": 1799,
-      "sale": 0,
-      "scrapedAt": "2026-10-15T17:36:53.259Z"
+      "scrapedAt": "2026-10-16T17:10:27.077Z"
     }
   ]
 }
