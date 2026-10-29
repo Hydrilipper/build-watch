@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:39:26.471Z",
+  "generatedAt": "2026-10-29T18:47:45.991Z",
   "budget": 2000,
   "listings": [
     {
@@ -11,7 +11,7 @@
       "ram": null,
       "price": 1709.05,
       "sale": 15.05,
-      "scrapedAt": "2026-10-28T18:39:25.243Z"
+      "scrapedAt": "2026-10-29T18:47:43.897Z"
     },
     {
       "title": "MSI Codex R2 AMD R7 8700F RTX 4060 16GB RAM 1TB SSD Win11H",
@@ -22,7 +22,7 @@
       "ram": null,
       "price": 999,
       "sale": 0,
-      "scrapedAt": "2026-10-28T18:39:25.241Z"
+      "scrapedAt": "2026-10-29T18:47:43.895Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H(Open Box)",
@@ -33,7 +33,7 @@
       "ram": null,
       "price": 1329.05,
       "sale": 1044.05,
-      "scrapedAt": "2026-10-28T18:39:25.242Z"
+      "scrapedAt": "2026-10-29T18:47:43.895Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -44,7 +44,7 @@
       "ram": null,
       "price": 1399,
       "sale": 1099,
-      "scrapedAt": "2026-10-28T18:39:25.242Z"
+      "scrapedAt": "2026-10-29T18:47:43.896Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H(Open Box)",
@@ -55,7 +55,7 @@
       "ram": null,
       "price": 1329.05,
       "sale": 1139.05,
-      "scrapedAt": "2026-10-28T18:39:25.242Z"
+      "scrapedAt": "2026-10-29T18:47:43.896Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 3050 16GB RAM 1TB SSD W11H",
@@ -66,7 +66,7 @@
       "ram": null,
       "price": 1399,
       "sale": 1199,
-      "scrapedAt": "2026-10-28T18:39:25.242Z"
+      "scrapedAt": "2026-10-29T18:47:43.897Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H",
@@ -77,7 +77,7 @@
       "ram": null,
       "price": 1399,
       "sale": 0,
-      "scrapedAt": "2026-10-28T18:39:25.243Z"
+      "scrapedAt": "2026-10-29T18:47:43.897Z"
     },
     {
       "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H(Open Box)",
@@ -88,7 +88,7 @@
       "ram": null,
       "price": 1439.1,
       "sale": 0,
-      "scrapedAt": "2026-10-28T18:39:25.243Z"
+      "scrapedAt": "2026-10-29T18:47:43.897Z"
     },
     {
       "title": "Acer Nitro 60 Intel i5 14400F RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -99,7 +99,7 @@
       "ram": null,
       "price": 1599,
       "sale": 0,
-      "scrapedAt": "2026-10-28T18:39:25.243Z"
+      "scrapedAt": "2026-10-29T18:47:43.897Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 Radeon RX 9060 XT 16GB RAM 1TB SSD W11H(Open Box)",
@@ -110,7 +110,7 @@
       "ram": null,
       "price": 1614.05,
       "sale": 0,
-      "scrapedAt": "2026-10-28T18:39:25.243Z"
+      "scrapedAt": "2026-10-29T18:47:43.898Z"
     },
     {
       "title": "Lenovo LOQ Tower AMD Ryzen 7 8745HX RTX 5060 16GB RAM 1TB SSD Win11H",
@@ -121,7 +121,7 @@
       "ram": null,
       "price": 2749,
       "sale": 1699,
-      "scrapedAt": "2026-10-28T18:39:25.243Z"
+      "scrapedAt": "2026-10-29T18:47:43.898Z"
     },
     {
       "title": "ARMOURY AMD Ryzen 7 5700 GeForce RTX 5060 16GB RAM 1TB SSD W11H",
@@ -132,7 +132,7 @@
       "ram": null,
       "price": 1799,
       "sale": 1699,
-      "scrapedAt": "2026-10-28T18:39:25.243Z"
+      "scrapedAt": "2026-10-29T18:47:43.898Z"
     }
   ]
 }
